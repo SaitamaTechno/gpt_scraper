@@ -1,3 +1,4 @@
+How to use? Youtube link: <a href="https://www.youtube.com/watch?v=Eq7DabJ0Chg">youtube<a/><br>
 Run from Docker Hub: <a href="https://hub.docker.com/r/saitamatechno/gpt_scraper">https://hub.docker.com/r/saitamatechno/gpt_scraper</a><br>
 docker run -d -p 6901:6901 -p 80:80 --name gpt1 saitamatechno/gpt_scraper:v1.0<br>
 
