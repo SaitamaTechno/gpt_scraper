@@ -3,8 +3,8 @@ import json
 from urllib.parse import quote
 
 def gpt_ask(sentence):
-    base_url = "http://10.4.131.12:81/api"
-    api_key = "saitama_key"
+    base_url = "http://192.168.1.236:80/api"
+    api_key = "saitamatechno"
     #sentence = "adın ne? nasılsın?"
     # Encode the sentence for URL
     encoded_sentence = quote(sentence)
@@ -22,5 +22,5 @@ def gpt_ask(sentence):
 # Example usage
 #answer=gpt_ask("!start")
 
-answer=gpt_ask("Amerikada en çok sevilen yemek ne?")
+answer=gpt_ask("who is your owner")
 print(answer["message"])
